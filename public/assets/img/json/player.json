@@ -1,0 +1,22 @@
+{
+    "first": {
+        "name": "첫번째 장비",
+        "id": "First",
+        "anims": {
+            "idle": {"start": 0, "end": 25},
+            "run": {"start": 26, "end": 41},
+            "attack": {"start": 42, "end": 53},
+            "jump": {"start": 54, "end": 54},
+            "falling": {"start": 55, "end": 61},
+            "hurt": {"start": 62, "end": 62},
+            "dash": {"start": 63, "end": 63}
+        },
+        "skills": {
+            "attack": {"cooldown": 0, "name": "베기"}
+        },
+        "frames": {"w": 192, "h": 192},
+        "hitbox": {
+            "x": 50, "y": 42, "w": 96, "h": 150
+        }
+    }
+}
